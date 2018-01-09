@@ -1,4 +1,4 @@
-package upperme
+package stringme
 
 import "strings"
 

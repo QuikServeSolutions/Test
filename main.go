@@ -3,11 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/terryberlin/test/upperme"
+	"github.com/terryberlin/test/stringme"
 )
-
-//import "github.com/terryberlin/test/upperme"
-//"github.com/quikServesolutions/test/upperme"
 
 // "crypto/sha256"
 // "encoding/hex"
@@ -19,6 +16,6 @@ import (
 // }
 
 func main() {
-	fmt.Println(upperme.UpperMe("terry"))
-	fmt.Println(upperme.LowerMe("terry"))
+	fmt.Println(stringme.UpperMe("terry"))
+	fmt.Println(stringme.LowerMe("terry"))
 }
