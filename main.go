@@ -1,18 +1,17 @@
 package main
 
-import (
-	"crypto/sha256"
-	"encoding/hex"
-	"fmt"
-)
+//"github.com/quikServesolutions/test/upperme"
 
-func hash(c string) string {
-	h := sha256.New()
-	fmt.Fprint(h, c)
-	return hex.EncodeToString(h.Sum(nil))
-}
+// "crypto/sha256"
+// "encoding/hex"
+// func hash(c string) string {
+// 	h := sha256.New()
+// 	fmt.Fprint(h, c)
+// 	return hex.EncodeToString(h.Sum(nil))
+//  fmt.Println(hash("tjb"))
+// }
 
 func main() {
-	fmt.Println(hash("tjb"))
-	UpperMe("terry")
+
+	upperme.UpperMe("terry")
 }
