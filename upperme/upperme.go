@@ -1,5 +1,7 @@
 package upperme
 
+import "strings"
+
 func UpperMe(s string) string {
-	strings.ToUpper(s)
+	return strings.ToUpper(s)
 }

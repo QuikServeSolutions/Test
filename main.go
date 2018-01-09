@@ -1,6 +1,12 @@
 package main
 
-//"github.com/terryberlin/test/upperme"
+import (
+	"fmt"
+
+	"github.com/terryberlin/test/upperme"
+)
+
+//import "github.com/terryberlin/test/upperme"
 //"github.com/quikServesolutions/test/upperme"
 
 // "crypto/sha256"
@@ -13,6 +19,6 @@ package main
 // }
 
 func main() {
-
-	upperme.UpperMe("terry")
+	fmt.Println(upperme.UpperMe("terry"))
+	fmt.Println(upperme.LowerMe("terry"))
 }
