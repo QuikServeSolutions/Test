@@ -18,4 +18,5 @@ import (
 func main() {
 	fmt.Println(stringme.UpperMe("terry"))
 	fmt.Println(stringme.LowerMe("terry"))
+	fmt.Println(stringme.LeftMe("terry"))
 }
