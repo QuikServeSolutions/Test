@@ -1,5 +1,5 @@
-package helloterry
+package upperme
 
-func Reverse(s string) string {
-	return reverseTwo(s)
+func UpperMe(s string) string {
+	strings.ToUpper(s)
 }
